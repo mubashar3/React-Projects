@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: black;
+  min-width: 350px;
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+}
+.navbar {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.navbar img {
+  width: 100%;
+}
+.navName {
+  font-size: 2rem;
+  text-align: center;
+}
+.navAbout {
+  font-size: 1.5rem;
+  height: 10px;
+}
+.navAddress {
+  height: 10px;
+}
+.navButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 15px;
+}
+.navEmail {
+  text-align: center;
+  width: 45%;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  padding: 12px;
+  border-radius: 10px;
+  border: none; 
+  text-decoration: none; 
+}
+.navLinkedin {
+  text-align: center;
+  width: 45%;
+  color: white;
+  background-color: rgb(74, 74, 180);
+  margin: auto;
+  padding: 12px;
+  border-radius: 10px;
+  border: none; 
+  text-decoration: none; 
+}
+.about {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+.heading {
+  margin: 0%;
+}
+.interest {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer img {
+  width: 50px;
+  border: none;
+}
